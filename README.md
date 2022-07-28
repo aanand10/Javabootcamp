@@ -34,7 +34,7 @@ I'm also going to add code and Handwritten notes parallely. <br>
 
 #### 🗃️ HandWritten notes and code are available on heading of topics
 
-- 1.0 [Introduction](https://github.com/onlyanand10/Javabootcamp/blob/main/MasterBox/introduction/new.txt)
+- 1.0 [Introduction](https://github.com/onlyanand10/Javabootcamp/blob/main/MasterBox/introduction)
   - 1.1 History
   - 1.2 Working of Java and code breakdown
   - 1.3 Data Types
