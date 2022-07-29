@@ -36,26 +36,26 @@ I'm also going to add code and Handwritten notes parallely. <br>
 
 #### 🗃️ HandWritten notes and code are available on heading of topics
 
-- 1.0 [Introduction](https://github.com/onlyanand10/Javabootcamp/blob/main/MasterBox/introduction)
+- 1.0 [Introduction](https://github.com/onlyanand10/Javabootcamp/blob/main/MasterBox/1Introduction)
   - 1.1 History
   - 1.2 Working of Java and code breakdown
   - 1.3 Data Types
   - 1.4 Types of Variables
   - 1.5 Reading Data from KeyBoard
-- 2.0 [Operators and Expression](link)
+- 2.0 [Operators and Expression](https://github.com/onlyanand10/Javabootcamp/tree/main/MasterBox/2OperatorsAndExpression)
   - 2.1 Types of operators
   - 2.2 Precedence of operators
   - 2.3 Increment and decrement operators
   - 2.4 Working of Bitwise operator
-- 3.0 [Control Statements](Link)
+- 3.0 [Control Statements](https://github.com/onlyanand10/Javabootcamp/tree/main/MasterBox/3ControlStatement)
   - 3.1 Conditionals
     ( If , if-else, if-elseif-else, switch)
   - 3.2 Iteration/Loops
   - 3.3 Break & Continue statement
   - 3.4 Type Casting (Off the topic but important)
-- 4.0 [Number System](Link)
+- 4.0 [Number System](https://github.com/onlyanand10/Javabootcamp/tree/main/MasterBox/4NumberSystem)
   - 4.1 Number System
   - 4.2 ASCII Values
-- 5.0 [Array](Link)
+- 5.0 [Array](https://github.com/onlyanand10/Javabootcamp/tree/main/MasterBox/5Array)
   - 5.1 Array
   - 5.2 Multi Dimensional Array
