@@ -10,7 +10,25 @@ In this repository I have tried to include what I have learnt about java.
 I'm also going to add code and Handwritten notes parallely. <br>
 ❗Press `CTRL+F` to find any topic.
 
- <!--~ IDE section  -->
+<!--~ jdk  -->
+
+## ☑️ Java Installation
+
+! To Work with java, jdk(java development kit) is necessary. [Learn more about this](https://github.com/onlyanand10/Javabootcamp/blob/main/MasterBox/1Introduction/1Introduction.pdf#page=4)
+
+- To check the Java version installed in your machine
+  - press `Windows key` type **CMD**
+  - open CMD
+  ```java
+   java -version
+  ```
+  - if output displayed like :
+    ![](assets\images\javaversioncheck.jpg)
+    then your system have installed the java.
+  - If it does not shows up like it then you must need to install java on your system.
+- For downloading installer to install java on your system [click here](https://www.java.com/en/download/)
+
+<!--~ IDE section  -->
 
 ## 🚀 IDE can be used
 
