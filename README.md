@@ -18,13 +18,14 @@ I'm also going to add code and Handwritten notes parallely. <br>
 
 - To check the Java version installed in your machine
   - press `Windows key` & type **CMD**
-  - open CMD
+  - press `Enter key` and type command to check java version
   ```java
    java -version
   ```
   - if output displayed like :
     ![](https://github.com/onlyanand10/Javabootcamp/blob/main/Assets/images/javaVersionCheck.jpg)
     then your system have installed the java.
+    <br> ! Note : your java version can be different.
   - If it does not shows up like it then you must need to install java on your system.
 - For downloading installer to install java on your system [click here](https://www.java.com/en/download/)
 
@@ -77,3 +78,4 @@ I'm also going to add code and Handwritten notes parallely. <br>
 - 5.0 [Array](https://github.com/onlyanand10/Javabootcamp/tree/main/MasterBox/5Array)
   - 5.1 Array
   - 5.2 Multi Dimensional Array
+- 6.0 [OOP]()
