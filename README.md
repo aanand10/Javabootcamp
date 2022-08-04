@@ -79,3 +79,71 @@ I'm also going to add code and Handwritten notes parallely. <br>
   - 5.1 Array
   - 5.2 Multi Dimensional Array
 - 6.0 [OOP]()
+  - 6.1 Class & Objects
+  - 6.2 Constructor
+  - 6.3 Instance and static block
+  - 6.4 Methods
+    - Static Method
+    - Method Overloading
+    - Variable arguments(varargs)
+  - 6.5 Static
+  - 6.6 Inner class
+  - 6.7 Singleton class
+- 7.0 [OOP Terminology]()
+  - 7.1 Inheritance
+  - 7.2 Polymorphism
+  - 7.3 Abstraction
+  - 7.4 Encapsulation
+  - 7.5 Super and Final keyword
+  - 7.6 Types of relationship
+  - 7.7 Aggregation
+  - 7.8 Abstract class and abstract method
+- 8.0 [Interfaces]()
+  - 8.1 Info
+  - 8.2 Extending an interface
+- 9.0 [Arraylist (Dynamic array)]()
+  - 9.1 Array vs Arraylist
+  - 9.2 Creating Arraylist
+- 10.0 [Exception handling]()
+  - 10.1 Basic Info(Exception, errors)
+  - 10.2 Types of Exceptions
+  - 10.3 Handling Exceptions
+    - try..... catch block
+    - try..... finally block
+    - Catching multiple exceptions
+    - Throw and throws keyword
+- 11.0 [Multitasking , multithreading and multiprocessing]()
+  - 11.1 Multitasking
+  - 11.2 Multiprocessing
+  - 11.3 Single threading
+  - 11.4 Multithreading
+    - multithreading vs multiprocessing
+    - Advantages
+    - Thread class
+      - Lifecycle of thread
+      - Execution
+      - Methods in thread class
+  - 11.5 Synchronization
+- 12.0 [Collections framework]()
+  - 12.1 Interfaces of collections framework
+  - 12.2 Collection Interface
+    - Collections Interface vs Collections framework
+    - Subinterfaces of Collections
+      - List interface
+      - Set interface
+      - Queue interface
+      - Map interface
+      - Iterator Interface
+        - Methods of Iterator
+    - List interface
+      - ArrayList
+      - LinkedList
+    - Vector class
+    - Stack class
+    - Set Interface
+      - Hashset class
+      - Linkedhashset class
+      - Treeset class
+    - Map Interface
+    - HashMap set
+      - LinkedHashMap Class
