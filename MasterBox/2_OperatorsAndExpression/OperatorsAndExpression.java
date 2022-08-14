@@ -4,7 +4,7 @@
 // 1. Arithmetic operators (+,-,*,/,%,++,--)
 // 2. Assignment operator (= , +=)
 // 3. Comparison operator ( ==,< , > , <= , >= , !=)
-// 4. Logical operators (|| , && )
+// 4. Logical operators (|| , && ) this only works on boolean values
 // 5. Bitwise operator (&,|,^)
 public class OperatorsAndExpression {
 
@@ -12,6 +12,8 @@ public class OperatorsAndExpression {
     // lets use them
     int a = 52;
     int b = 25;
+    boolean one = true;
+    boolean two = false;
     System.out.println("Some operations using the operators :");
     System.out.println("a+b = " + (a + b));
     System.out.println("a-b = " + (a - b));
@@ -31,5 +33,7 @@ public class OperatorsAndExpression {
     System.out.println("a | b = " + (a | b));
     System.out.println("a & b = " + (a & b));
     System.out.println("a ^ b = " + (a ^ b));
+    System.out.println("one && two = " + (one && two));
+    System.out.println("one || two = " + (one || two));
   }
 }
