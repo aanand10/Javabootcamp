@@ -61,5 +61,27 @@ public class Conditionals {
       System.out.println("Bat");  
     }
     // we can use switch case as a expression also
+    // like
+    // int itemCode = 2;
+    // enum Day {
+	// 	MON, TUE, WED, THUR, FRI, SAT, SUN
+	// };
+    // public static Boolean isWeekDayV2 (Day day)
+	// {
+	// 	Boolean result = switch(day) {
+	// 		case MON, TUE, WED, THUR, FRI ->
+	// 		{
+	// 			System.out.println("It is WeekDay");
+	// 			yield true;
+	// 		}
+	// 		case SAT, SUN ->
+	// 		{
+	// 			System.out.println("It is Weekend");
+	// 			yield false;
+	// 		}
+	// 	};
+	// 	return result;
+	// }
+    // System.out.println(isWeekDayV2(Day.MON));
   }
 }
