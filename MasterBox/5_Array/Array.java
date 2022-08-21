@@ -7,7 +7,7 @@ public class Array {
 
   public static void main(String[] args) {
     // Creation of array
-    // 1 D array
+    // 1 D array :
     System.out.println(
       "Creation of the array\n ~ Creation of one dimensional array or 1D array \n~ syntax : data-type [] arrayName; "
     ); // for basic syntax please refer handwritten notes in the array folder
