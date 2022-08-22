@@ -35,7 +35,6 @@ public class MultiDimensionalArray {
     //        | 4   5   6 |
 
     //~ Accessing 2D array elements
-    // I. By index
     System.out.println("~ Accessing 2D array elements by index :");
     System.out.println("newArr[0][0] : " + newArr[0][0]);
     System.out.println("newArr[0][1] : " + newArr[0][1]);
@@ -43,14 +42,5 @@ public class MultiDimensionalArray {
     System.out.println("newArr[1][0] : " + newArr[1][0]);
     System.out.println("newArr[1][1] : " + newArr[1][1]);
     System.out.println("newArr[1][2] : " + newArr[1][2]);
-    //~ Accessing 2D array elements by loop
-    System.out.println("~ Accessing 2D array elements by loop :");
-    int rowNumber = 2;
-    int colNumber = 3;
-    for (int i = 0; i < rowNumber; i++) {
-      for (int j = 0; j < colNumber; j++) {
-        System.out.println("newArr[" + i + "][" + j + "] : " + newArr[i][j]);
-      }
-    }
   }
 }

@@ -1,3 +1,4 @@
+//Array part I
 //Array : ~ Array is collection of same data type of values
 // ~ Array is class in java
 // ~ Types of array : 1. one dimensional array or 1D array
