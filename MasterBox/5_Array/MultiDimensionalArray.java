@@ -49,8 +49,9 @@ public class MultiDimensionalArray {
     int colNumber = 3;
     for (int i = 0; i < rowNumber; i++) {
       for (int j = 0; j < colNumber; j++) {
-        System.out.println("newArr[" + i + "][" + j + "] : " + newArr[i][j]);
+        System.out.print(newArr[i][j] + " ");
       }
+      System.out.println();
     }
   }
 }
