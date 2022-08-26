@@ -46,7 +46,7 @@ I'm also going to add code and Handwritten notes parallely. <br>
   ```
   5. Now if it have no errors lets run it by command
   ```
-  java classFileName/className
+  java className
   ```
 
 <!-- ~ index section  -->
