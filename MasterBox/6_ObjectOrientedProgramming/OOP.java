@@ -18,6 +18,21 @@ class Car {
   public void start() { // Method
     System.out.println("Car is Starting.");
   }
+
+  //! Constructor : This is type of method which have same name as the class name and don't have any return type.
+  // For more info please check the handwritten notes.
+  Car() {
+    System.out.println(
+      "Hello from a non- parameterized / default constructor. This line is showing because the object is created using this Non-parameterized constructor or constructor is called."
+    );
+  } // this is a default constructor.
+
+  Car(int price) { // this is a parameterized constructor.
+    this.price = price;
+    System.out.println(
+      "Hello from a parameterized constructor. This line is showing because the object is created using this parameterized constructor or constructor is called."
+    ); // This line will print when object will get created.
+  }
 }
 
 public class OOP {
@@ -26,6 +41,11 @@ public class OOP {
     //For calling or using anything from another class we need to create its object firstly which will work as an reference to that class. By using that object we are able to access stuff from that class.
     // Creating an object :
     // ClassName objectName = new ClassName(); // object is created
-    Car fordAspire = new Car(); // Here fordAspire object is created from the class
+    Car fordAspire = new Car(); // Here fordAspire object is created and non parameterised constructor is used here.
+    Car ecoSport = new Car(12); // Here ecoSport object is created and parameterised constructor is used here, so we have passed value through the method.
+    //Now using the object we will access the elements of that class
+    System.out.println(fordAspire.color); // this will access or show us a color element of the car class.
+    fordAspire.start(); // by using object we calling the start method from the class.
+    new Car(); // constructor can be called by using this syntax
   }
 }
