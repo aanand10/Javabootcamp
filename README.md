@@ -8,7 +8,7 @@
 
 In this repository I have tried to include what I have learnt about java.
 I'm also going to add code and Handwritten notes parallely. <br>
-❗Press `CTRL+F` to find any topic.
+❗Press `CTRL+F` to find any topic in this document.
 
 <!--~ jdk  ~-->
 
