@@ -22,7 +22,7 @@ public class Blocks {
     );
   }
 
-  //   constructor
+  //Constructor
   Blocks() {
     System.out.println(
       "Hello , from constructor of this class. I have lower precedence than instance block."
