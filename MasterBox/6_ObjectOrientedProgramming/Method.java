@@ -13,7 +13,7 @@
 
 //Static keyword : Static data can't be accessed directly from the non static method but non-static data can be accessed by static method.
 //! Static and Non-Static methods :
-//~ Static method : we can call these methods directly there is no need to use object to call them. but through static methods we cat't can non static methods.
+//~ Static method : we can call these methods directly there is no need to use object to call them. but through static methods we can access non static methods.
 //~ Non-static method : we can't call these methods directly with their name we have to access them by the object.
 //! Note : for more info about static keyword must refer handwritten notes.
 
