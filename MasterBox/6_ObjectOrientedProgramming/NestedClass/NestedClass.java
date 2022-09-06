@@ -12,6 +12,14 @@ class OuterClass {
   class InnerClass {
 
     int a = 10;
+
+    // local inner class
+    void LocalInnerClass() {
+      class a {
+
+        String name = "inner method array";
+      }
+    }
   }
 }
 
