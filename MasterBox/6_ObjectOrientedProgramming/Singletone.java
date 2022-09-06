@@ -1,4 +1,3 @@
-//! Before starting nested java class we will see little bit about singleton class
 //~ Singleton class :  a class whose only one instance can be created. More than one instance creation for that class is not allowed.
 //! Class object is also called as class instance.
 
@@ -15,7 +14,7 @@ class singleton {
   }
 }
 
-public class NestedClass {
+public class Singletone {
 
   public static void main(String[] args) {
     // singleton obj = new singleton();  we can't create object directly because default constructor is private. So we have to create it by accessing the method which we have created. Because that method returns an object.
@@ -24,6 +23,10 @@ public class NestedClass {
     //# If we are trying to create more reference variable , it is possible to create more reference variable as of they are pointing to the same object.
     singleton newObj = singleton.getInstnace();
     //# Here obj and newObj are pointing top the same object which is returned by the getInstance() method.
+    // obj   newObj
+    // ⬇     ⬇
+    // object
     //!Note : singleton obj = new singleton(); here obj is an reference variable which will point to the created object as object is created we call it as object name.
+
   }
 }
