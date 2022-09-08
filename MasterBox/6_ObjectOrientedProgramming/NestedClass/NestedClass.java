@@ -9,6 +9,7 @@ package NestedClass;
 
 class OuterClass {
 
+  // inner class
   class InnerClass {
 
     int a = 10;
