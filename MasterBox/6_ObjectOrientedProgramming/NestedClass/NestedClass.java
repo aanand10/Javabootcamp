@@ -32,5 +32,14 @@ public class NestedClass {
 
     OuterClass.InnerClass obj2 = new OuterClass().new InnerClass(); // we can simultaneously create objects of the both the classes.
     System.out.println(obj1.a);
+
+    //! Anonymous inner class : inner class without name
+    //                          this is not frequently used
+    // lets create one anonymous inner class :
+    NestedClass obj3 = new NestedClass() {
+      public void hiAnonymous() {
+        System.out.println("Hi, from anonymous inner class method.");
+      }
+    };
   }
 }
