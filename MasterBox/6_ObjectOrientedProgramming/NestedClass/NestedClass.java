@@ -37,7 +37,7 @@ public class NestedClass {
     //                          this is not frequently used
     // lets create one anonymous inner class :
     NestedClass obj3 = new NestedClass() {
-      public static void hiAnonymous() {
+      public static void hiAnonymous() { // deceleration
         System.out.println("Hi, from anonymous inner class method.");
       }
     };
