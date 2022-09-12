@@ -4,7 +4,7 @@
 
 # 🏕️JAVA Bootcamp by Anand (Code + Handwritten notes) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
 
-<!-- ~ Intro section  ---->
+<!-- ~ Intro section ~  ---->
 
 In this repository I have tried to include what I have learnt about java.
 I'm also going to add code and Handwritten notes parallely. <br>
