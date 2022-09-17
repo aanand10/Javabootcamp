@@ -5,4 +5,7 @@
 //~ states : first gear , AC on, headlights on, etc.
 //~ behavior : moving forward, moving back, braking, etc.
 
-public class OOP_Terminology {}
+public class OOP_Terminology {
+
+  public static void main(String[] args) {}
+}
