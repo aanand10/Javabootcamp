@@ -5,7 +5,27 @@
 //~ states : first gear , AC on, headlights on, etc.
 //~ behavior : moving forward, moving back, braking, etc.
 
+//~ Class : it is an blueprint for the object. e.g.:  Car is a class it is an template for all other companies to make their cars accordingly.
+
+class Car {
+
+  int price; // class variable or state
+  String color; // class variable
+
+  void start(int price, String color) { // class method or we can say it behavior
+    this.price = price;
+    this.color = color;
+
+    System.out.println(
+      "Your car price is " + price + " and color is " + color + " is starting."
+    );
+  }
+}
+
 public class OOP_Terminology {
 
-  public static void main(String[] args) {}
+  public static void main(String[] args) {
+    Car co = new Car();
+    co.start(700000, "Red");
+  }
 }
