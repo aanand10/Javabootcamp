@@ -1,8 +1,12 @@
 //! Part 1 :
-//~ Object oriented Programming : this helps to program or code real world problems efficiently. This is used to break complex problems into simpler and smaller objects.
-//~ Classes , Objects and methods
-//~ Classes : These are the blueprint for the other objects.
-//~ Object : These are created by the classes.
+//~ Object Oriented Programing (OOP) means solving real world problems using lines of code along with some terminologies like abstraction , inheritance , polymorphism inheritance , aggregation, etc.
+//~ OOP helps us solving real world problems more easily than procedural programing.
+//~ Object is an entity which have some states and behavior. e.g.: Car is an object which have
+//~ states : first gear , AC on, headlights on, etc.
+//~ behavior : moving forward, moving back, braking, etc.
+
+//~ Class : it is an blueprint for the object. e.g.:  Car is a class it is an template for all other companies to make their cars accordingly.
+//~ Object : It is an instance of class. e.g.: BMW is an object of the Car class also ford is also object of Car class these two posses same basic qualities/ features of the Car class or features based on template of the Car class.
 //~ Method : Objects use methods to communicate between them or we can say methods are the block of code which are used to perform specific task.
 
 //* Let's take a real world example. Consider a case of the car.

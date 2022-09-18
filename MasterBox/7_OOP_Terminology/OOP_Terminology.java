@@ -6,6 +6,7 @@
 //~ behavior : moving forward, moving back, braking, etc.
 
 //~ Class : it is an blueprint for the object. e.g.:  Car is a class it is an template for all other companies to make their cars accordingly.
+//~ Object : It is an instance of class. e.g.: BMW is an object of the Car class also ford is also object of Car class these two posses same basic qualities/ features of the Car class or features based on template of the Car class.
 
 class Car {
 
