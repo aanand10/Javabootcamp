@@ -1,32 +1,89 @@
-//! Object Oriented Programing : Let's see what is Object Oriented Programing and what does it means ?
-//~ Object Oriented Programing (OOP) means solving real world problems using lines of code along with some terminologies like abstraction , inheritance , polymorphism inheritance , aggregation, etc.
-//~ OOP helps us solving real world problems more easily than procedural programing.
-//~ Object is an entity which have some states and behavior. e.g.: Car is an object which have
-//~ states : first gear , AC on, headlights on, etc.
-//~ behavior : moving forward, moving back, braking, etc.
+//! Object Oriented Programing :
+// Pillars of the OOP are inheritance, encapsulation, polymorphism and abstraction.
+//Let's start with inheritance
+//^ Inheritance :
+//~ Inherit word meaning is taking or absorbing properties from someone (parent class/ super class). It can be shown as
+//~                       Parent
+//~                          ↑
+//~                       Child
+//~ Real life example : we all are the example of inheritance because we are inherited gens from aur parents and the have inherited from their parents.
+//~ Deriving new class from the super class. Like for creating smartphone we don't need to make it from start we can just create smartphone class from phone class then it we will add other required properties to  that class.
+//~ As child class inherits properties from parent class (super class), here child class can access everything from the parent class but child can't access anything from the child class.
 
-//~ Class : it is an blueprint for the object. e.g.:  Car is a class it is an template for all other companies to make their cars accordingly.
-//~ Object : It is an instance of class. e.g.: BMW is an object of the Car class also ford is also object of Car class these two posses same basic qualities/ features of the Car class or features based on template of the Car class.
+//& Super keyword :
+//*                  this is used to refer parent class.
+//*                  super() method is used to call the constructor of the super class.
+//! Note : We can't use super keyword in static methods.
 
-class Car {
+//& Types of inheritance :
+//^ 1. Single inheritance
+//                       A
+//                       ↑
+//                       B
+//^ 2. Multi level inheritance
+//                       A
+//                       ↑
+//                       B
+//                       ↑
+//                       C
+//^ 3. Multiple inheritance : this is not supported in java because it can cause naming ambiguity. But it can be done using interfaces which we are going to see further.
+//                  A     B
+//                   ↖ ↗
+//                    C
+//^ 4.Hierarchial inheritance :
+//                         A
+//                       ↗  ↖
+//                     B     C
+//                   ↗  ↖
+//                  D    E
+//^ 5. Hybrid inheritance : Multiple + Hierarchial. this is also not supported in java
+//                         A
+//                       ↗  ↖
+//                      B    C
+//                       ↖ ↗
+//                        C
 
-  int price; // class variable or state
-  String color; // class variable
+class Vehicle {
 
-  void start(int price, String color) { // class method or we can say it behavior
-    this.price = price;
-    this.color = color;
+  String name = "I'm the parent class";
 
-    System.out.println(
-      "Your car price is " + price + " and color is " + color + " is starting."
-    );
+  void namasteFromVehicle() {
+    System.out.println(name);
+  }
+}
+
+//! Single Inheritance
+class Car extends Vehicle {
+
+  String name = "I'm the child class of the vehicle class.";
+
+  void namasteFromCar() {
+    System.out.println(name);
+  }
+}
+
+//! Multiple inheritance
+class EV extends Car {
+
+  String name = "I'm the child class of the Car class who is child of Vehicle";
+
+  void namasteFromEV() {
+    System.out.println(name);
+  }
+}
+
+//! Hierarchical inheritance :
+
+class PetrolCar extends Car {
+
+  String name = "I'm the child class of the Car class who is child of Vehicle";
+
+  void namasteFromEV() {
+    System.out.println(name);
   }
 }
 
 public class OOP_Terminology {
 
-  public static void main(String[] args) {
-    Car co = new Car();
-    co.start(700000, "Red");
-  }
+  public static void main(String[] args) {}
 }
