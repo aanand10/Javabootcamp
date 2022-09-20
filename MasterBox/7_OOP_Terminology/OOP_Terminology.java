@@ -43,9 +43,20 @@
 //                       ↖ ↗
 //                        C
 
+//& Let's see some access related stuff which happens in inheritance :
+//^  Things in Parent class  |   Can accessed by child class ?     | Can accessed by child of child class ?  |
+//---------------------------|-------------------------------------|-----------------------------------------|
+//        private            |             no                      |              no                         |
+//        protected          |             yes                     |             yes                         |
+//        default            |             yes                     |             yes                         |
+//        public             |             yes                     |             yes                         |
+//---------------------------|-------------------------------------|-----------------------------------------|
+
 class Vehicle {
 
   String name = "I'm the parent class";
+  private float betaVersion = 1.3f;
+  protected static float version = 1.2f;
 
   void namasteFromVehicle() {
     System.out.println(name);
@@ -55,6 +66,13 @@ class Vehicle {
 //! Single Inheritance
 class Car extends Vehicle {
 
+  //! float betaVersion = Vehicle.betaVersion; // this can't be assigned because betaVersion is private which can be only accessible from the Vehicle class.
+  float version = Vehicle.version; // this can be assigned because version is protected which can be accessible from the child classes of vehicle class.
+
+  Car() { // default constructor of the class
+    System.out.println("Heyy, I'm the default constructor of the Car class");
+  }
+
   String name = "I'm the child class of the vehicle class.";
 
   void namasteFromCar() {
@@ -62,28 +80,78 @@ class Car extends Vehicle {
   }
 }
 
+class Airplane extends Vehicle {
+
+  String name = "I'm the child class of the vehicle class.";
+
+  void namasteFromAirplane() {
+    System.out.println(name);
+  }
+}
+
 //! Multiple inheritance
-class EV extends Car {
+class EVCar extends Car {
 
-  String name = "I'm the child class of the Car class who is child of Vehicle";
+  float version = Vehicle.version;
+  String name =
+    "My class name is EVCar. I'm the child class of the Car class who is child of Vehicle";
 
-  void namasteFromEV() {
+  void namasteFromEVCar() {
     System.out.println(name);
   }
 }
 
 //! Hierarchical inheritance :
-
+//                       Vehicle
+//                       ↗    ↖
+//                     Car    Airplane
+//                   ↗  ↑  ↖
+//              EVCar  PCar DCar
 class PetrolCar extends Car {
 
-  String name = "I'm the child class of the Car class who is child of Vehicle";
+  String name =
+    "My class name is PetrolCar. I'm the child class of the Car class who is child of Vehicle";
 
-  void namasteFromEV() {
+  void namasteFromPetrolCar() {
     System.out.println(name);
   }
 }
 
+class DieselCar extends Car {
+
+  DieselCar() {
+    super();
+    System.out.println("I'm the constructor of the DiselCar class.");
+  }
+
+  String name =
+    "My class name is DieselCar. I'm the child class of the Car class who is child of Vehicle";
+
+  void namasteFromDieselCar() {
+    System.out.println(name);
+  }
+
+  //! Using super keyword we will access the method from parent class here parent class of the DieselCar is Car. SO here super keyword will refer things in the parent class
+
+  void usingSuper() {
+    System.out.println(
+      "~ This is being printed using super keyword. we are going to access the default constructor and some elements using super keyword. \n* We can access elements of parent class by using super keyword super.name will give :" +
+      super.name
+    );
+  }
+}
+
+// class HybridCar extends PetrolCar , DieselCar {}      //this is not possible in java in the case of multiple inheritance using the classes.
+
 public class OOP_Terminology {
 
-  public static void main(String[] args) {}
+  public static void main(String[] args) {
+    //If we create the object of the super class here that is "Vehicle". Using that object we can only access elements of that class, we can't access anything from its child classes.
+    Vehicle vo = new Vehicle();
+    vo.namasteFromVehicle();
+    // If we create the object of the child class then we can access the properties from other upper classes because child class have been inherited properties of the parent class
+    DieselCar co = new DieselCar();
+    co.namasteFromDieselCar();
+    co.usingSuper();
+  }
 }
