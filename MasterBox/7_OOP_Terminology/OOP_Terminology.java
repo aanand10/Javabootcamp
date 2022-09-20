@@ -101,7 +101,7 @@ class EVCar extends Car {
   }
 }
 
-//! Hierarchical inheritance :
+//!  Hierarchical inheritance :
 //                       Vehicle
 //                       ↗    ↖
 //                     Car    Airplane
