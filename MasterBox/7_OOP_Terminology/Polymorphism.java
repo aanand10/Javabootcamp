@@ -14,7 +14,7 @@
 //Example:              Shape
 //                 ↙     ↓     ↘
 //            Triangle  Circle  Rectangle
-//# render() method behaves differently in different classes. Or, we can say render() is polymorphic.
+//^ render() method behaves differently in different classes. Or, we can say render() is polymorphic.
 class Shape {
 
   public void render() {
