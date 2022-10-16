@@ -45,10 +45,25 @@ co.meth3();    //Now this is valid
 //Association     Inheritance
 //HAS-A rel.        IS-A rel.
 
-//*    Association (HAS-A relationship )
+//*i) Association (HAS-A relationship )
 // Has two parts :
-// 1. Aggregation : it shares weak bond
-//
+// 1. Aggregation : it shares weak bond. If that thing is available or not available that does not affect too much
+// 2. Composition : it shares strong bond. That thing must be available in that relationship.
+/* EX : 
+              Car
+ Aggregation↙    ↘composition
+          ↙       ↘
+   Music Player    Engine
+
+   Music player in car is optional but engine must be there in the car.
+           
+*/
+//* ii) Inheritance (IS-A relationship )
+//   It is based on inheritance. Like Apple is fruit , car is a vehicle, etc.
+
+//Ex. of association and inheritance : Ford is a car and for has a engine.
+
+//!Note do check dynamic method dispatch topic in handwritten notes 7_OOP_Terminology page number 5
 
 class Shape {
 
