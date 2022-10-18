@@ -19,6 +19,7 @@
 //! If we are referencing from parent class to the method of child then the method which is being overridden should be present in superclass.
 
 //! Fact : By default every class extends Object class.
+//! Some cases :
 /*  class Shape {
   void meth1(){}
   void meth2(){}
