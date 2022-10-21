@@ -8,7 +8,7 @@
 //this is an abstract class
 abstract class AbstractClass {
 
-  //Abstract method
+  //Abstract method : method without body
   abstract void AbstractMethod();
 
   //normal method
@@ -21,7 +21,7 @@ class ClassTwo extends AbstractClass {
 
   // we must have to implement the abstract method in child classes.
   @Override
-  void AbstractMethod() { // abstract method body is declared after implementin g
+  void AbstractMethod() { // abstract method body is declared after implementing
     System.out.println("Abstract method got implemented in parent class.");
   }
 }

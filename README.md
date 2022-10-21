@@ -29,7 +29,7 @@ I'm also going to add code and Handwritten notes parallely. <br>
   - If it does not shows up like it then you must need to install java on your system.
 - For downloading installer to install java on your system [click here](https://www.java.com/en/download/)
 
-<!--~ IDE section  -->
+<!--~ IDE section ~ -->
 
 ## 🚀 IDE can be used
 
